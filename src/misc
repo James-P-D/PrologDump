@@ -1,0 +1,80 @@
+basics
+consult('')
+
+family tree
+
+anonymous variable (_)
+
+output
+write('')
+ ~w for symbols,
+ ~s for strings,
+ ~f for floats,
+ ~2f for 2dp float,
+ ~n for new line
+writeq('something') ... 'something' with quotes!
+nl
+format('', [..]),
+tab(1) for single space
+
+variables 'X is Z - 1'
+
+structures
+owns(albert, pet(cat, olive))
+owns(albert, pet(cat, X)) ... X = olive
+
+..or..
+customer(sally, smith, 123.45)
+customer(sally, _, Balence) ... Balence = 123.45
+
+..or..
+vertical(line(point(X, Y), point(X, Y2))).
+vertical(line(point(5,10), X)). ... X  = point(5, _)
+
+hmmmm.
+alice = alice (yes)
+alice = 'alice' (also yes :\)
+4 > 10 ... no
+4 >= 10 ... no
+4 =< 10 ... yes (less than or equal is wierd!)
+not
+ \+ (alice = albert) .... yes
+not equal
+ (alice =\= albert) ... yes
+W = alice .... yes
+rich(money, X) = rich(Y, no_debt) ... X = no_debt, Y= money, yes
+trace. and notrace.
+Maths
+X is 2 + 2 .... X = 4 yes
+X is 5 + (3 * 7) ..... etc.
+5+4 =:= 5+4. .... yes
+or (||) is semi-colon!
+5 > 10 ; 10 > 20.
+X is mod(7, 2). .... X = 1 yes
+random(0, 10, X) ... X = 5 yes
+between(0, 10, X) ... X = 0, X = 1, .... etc.
+succ(2, X).... X = 3
+X is abs(-8) ... X = 8
+X is max(10, 5) .. X = 5
+X is round(10.56) ... X = 11
+X is truncate(10.56) ... X = 10
+X is floor(10.56)
+X is ceiling()
+X is 2**3
+X is 11 // 2 (divide and disregard decimals, presumably / gives floats)
+sqrt, sin, cos, tan, asin, acos, atan, atan2, sinh, asinh, log exp, pi, e
+Input
+read(X).
+ say_hi :- write('enter name'), read(X), write('Hi '), write(X).
+ Need to input value with quotes! 'James'
+get(X)
+ reads once char (ASCII value), so outputting for 'A' would be 65
+put(X)
+ outputs the char
+open(File, write, Stream), write(Steam, 'hello), close(Stream)
+open(File, read, Stream), get_char(Stream, Char1), close(Steam)
+end_of_file !!
+Cut!
+
+Looping
+STOPPED AT 49th minute
